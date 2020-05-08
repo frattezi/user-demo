@@ -1,2 +1,10 @@
-# user-demo
-AWS Infra test
+# base-react-parcel
+
+# Base Project
+React + Parcel
+
+## Stack
+- React
+- Parcel
+- styled-components
+- ESLint
