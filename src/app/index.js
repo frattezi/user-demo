@@ -5,10 +5,11 @@ import { Provider } from 'react-redux'
 
 import { generateStore } from 'app/redux'
 import Router from 'app/components/Router'
-import { setupAmplify } from 'app/helpers/amplify'
 import GlobalStyles from 'app/helpers/globalStyles'
 
-setupAmplify()
+// TODO: link with amplify
+//import { setupAmplify } from 'app/helpers/amplify'
+// setupAmplify()
 
 WebFont.load({
   google: {
