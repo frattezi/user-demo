@@ -1,11 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import WebFont from 'webfontloader'
-
-import Router from 'app/components/Router'
-import GlobalStyles from 'app/helpers/globalStyles'
-import { generateStore } from 'app/redux'
 import { Provider } from 'react-redux'
+
+import { generateStore } from 'app/redux'
+import Router from 'app/components/Router'
+import { setupAmplify } from 'app/helpers/amplify'
+import GlobalStyles from 'app/helpers/globalStyles'
+
+setupAmplify()
 
 WebFont.load({
   google: {
@@ -16,6 +19,7 @@ WebFont.load({
     ]
   }
 })
+
 const App = () => {
   const store = generateStore()
 
