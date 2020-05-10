@@ -12,6 +12,7 @@
     "test": "echo 'You need to create some tests!'"
   },
   "dependencies": {
+    "aws-amplify": "^3.0.10",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
