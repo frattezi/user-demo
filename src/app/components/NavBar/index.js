@@ -8,7 +8,7 @@ const NavBar = () => {
   return (
     <Container id='navbar'>
       <Text component='h1'>
-        Tremtec React + Parcel
+        UserDemo
       </Text>
     </Container>
   )

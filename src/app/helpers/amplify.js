@@ -1,5 +1,4 @@
 import Amplify, { API } from 'aws-amplify'
-import * as queries from 'app/graphql/queries'
 
 import awsconfig from '../../aws-exports'
 

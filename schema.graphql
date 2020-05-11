@@ -1,0 +1,25 @@
+﻿schema {
+  query: Query
+  mutation: Mutation
+}
+
+type Mutation {
+  addUser(user: SaveUserInput!): User
+  deleteUser(id: String!): User
+}
+
+type Query {
+  getUser(id: String!): User
+  getUsers: [User]
+}
+
+type User {
+  id: String!
+  name: String!
+  password: String!
+}
+
+input SaveUserInput {
+  name: String!
+  password: String!
+}

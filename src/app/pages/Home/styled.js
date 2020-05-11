@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 import theme from 'app/helpers/theme'
 
-export const Container = styled.nav`
+export const FormContainer = styled.nav`
   width: 100%;
   display: flex;
   justify-content: center;
